@@ -26,7 +26,67 @@ let juegos = [
     estado: "Jugando",
     puntuacion: 9,
     imagen:
-      "https://upload.wikimedia.org/wikipedia/en/4/46/The_Last_of_Us_Part_II.png",
+      "https://static.wikia.nocookie.net/thelastofus/images/8/85/Portada_Parte_II_limpia.jpeg/revision/latest?cb=20211209014334&path-prefix=es",
+  },
+  {
+    id: 3,
+    titulo: "Days Gone",
+    plataforma: "PS4",
+    genero: "Zombies, Aventura",
+    estado: "Jugando",
+    puntuacion: 9,
+    imagen:
+      "https://imgproxy.eneba.games/HoaxYHRm2y_YKu7YBRY2Q7fN6Wbqf7huXBPvaDTXd60/rs:fit:300/ar:1/czM6Ly9wcm9kdWN0/cy5lbmViYS5nYW1l/cy9wcm9kdWN0cy9i/d0Y5NlM2SW1iTC00/bDlnUnlvOE52ZC1v/V2NiR0l0V3lmYU1D/XzBBN3NrLmpwZWc",
+  },
+  {
+    id: 4,
+    titulo: "Rocket ;eague",
+    plataforma: "PS4",
+    genero: "Deporte",
+    estado: "Jugando",
+    puntuacion: 8,
+    imagen:
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg",
+  },
+  {
+    id: 5,
+    titulo: "The Forest",
+    plataforma: "PS4",
+    genero: "Aventura",
+    estado: "Jugando",
+    puntuacion: 8,
+    imagen:
+      "https://mundosteam.shop/wp-content/uploads/2024/07/Diseno-sin-titulo-2024-07-29T233932.863.png",
+  },
+  {
+    id: 6,
+    titulo: "World War Z: Aftertmath",
+    plataforma: "PS5",
+    genero: "Acción",
+    estado: "Terminado",
+    puntuacion: 10,
+    imagen:
+      "https://store-images.s-microsoft.com/image/apps.52097.14124816078460443.a6dec9dc-b4f7-4744-94f3-470e02e1dd63.eda5ab58-b829-43e1-9e83-53d108036961",
+  },
+  {
+    id: 7,
+    titulo: "Detroit: Become Human",
+    plataforma: "PS4",
+    genero: "Historia",
+    estado: "Terminado",
+    puntuacion: 7,
+    imagen:
+      "https://acdn-us.mitiendanube.com/stores/004/491/480/products/diseno-sin-titulo-92-1-014bdff4e5efee45e617223094349622-1024-1024.webp",
+  },
+  {
+    id: 8,
+    titulo: "Resident Evil Village",
+    plataforma: "PS5",
+    genero: "Terror",
+    estado: "Terminado",
+    puntuacion: 10,
+    imagen:
+      "https://image.api.playstation.com/vulcan/ap/rnd/202101/0812/FkzwjnJknkrFlozkTdeQBMub.png",
   },
 ];
 
