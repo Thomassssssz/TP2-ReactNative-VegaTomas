@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 function ItemJuego({ juego, eliminarJuego, setJuegoEditando }) {
   return (
     <div className="card">
@@ -14,6 +16,7 @@ function ItemJuego({ juego, eliminarJuego, setJuegoEditando }) {
 
       <div className="card-body">
         <h3>{juego.titulo}</h3>
+
         <p>
           <strong>Plataforma:</strong> {juego.plataforma}
         </p>
@@ -34,6 +37,7 @@ function ItemJuego({ juego, eliminarJuego, setJuegoEditando }) {
           >
             Editar
           </button>
+
           <button
             className="btn eliminar"
             onClick={() => eliminarJuego(juego.id)}
@@ -46,4 +50,9 @@ function ItemJuego({ juego, eliminarJuego, setJuegoEditando }) {
   );
 }
 
-export default ItemJuego;
+/*
+memo:
+Evita que este componente se vuelva a renderizar
+si las props (juego, funciones) no cambian.
+*/
+export default memo(ItemJuego);
